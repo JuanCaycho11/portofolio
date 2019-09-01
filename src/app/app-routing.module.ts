@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   // { path: '', loadChildren: './pages/login/login.module#LoginModule'},
   { path: '', loadChildren: './home/home.module#HomeModule' },
+  { path: 'certificate', loadChildren: './certificate/certificate.module#CertificateModule' },
   { path: '**', redirectTo: 'error/ec' }
 ];
 
