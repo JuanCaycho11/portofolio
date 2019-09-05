@@ -14,9 +14,13 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     console.log("code that runs when entering the page");
   }
-  
-  public linkCertificate():void {
+
+  public linkCertificate(): void {
     this.router.navigate(['/certificate/cc'], { skipLocationChange: true });
+  }
+
+  public linkAnimation(): void {
+    this.router.navigate(['/animationdemon/ac'], { skipLocationChange: true });
   }
 
 }
